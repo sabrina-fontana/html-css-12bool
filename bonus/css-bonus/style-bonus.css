@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-50 {
+  width: calc(100% / 50);
+  height: 30.71px;
+  float: left;
+}
+
+.black {
+  background-color: black;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.grey {
+  background-color: #716559;
+}
+
+.brown {
+  background-color: #8a5e3b;
+}
+
+.lightbrown {
+  background-color: #c3986b;
+}
+
+.darkbrown {
+  background-color: #3a2313;
+}
