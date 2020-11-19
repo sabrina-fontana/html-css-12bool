@@ -15,8 +15,16 @@
   float: left;
 }
 
+[class*="col-"].white {
+height: 20px;
+}
+
 .col-16 {
   width: calc((100% / 50) * 16);
+}
+
+.col-10 {
+  width: calc((100% / 50) * 10);
 }
 
 .col-7 {
@@ -65,4 +73,8 @@
 
 .darkbrown {
   background-color: #3a2313;
+}
+
+.white {
+  background-color: white;
 }
