@@ -10,10 +10,37 @@
   clear: both;
 }
 
-.col-50 {
-  width: calc(100% / 50);
+[class*="col-"] {
   height: 30.71px;
   float: left;
+}
+
+.col-16 {
+  width: calc((100% / 50) * 16);
+}
+
+.col-7 {
+  width: calc((100% / 50) * 7);
+}
+
+.col-5 {
+  width: calc((100% / 50) * 5);
+}
+
+.col-4 {
+  width: calc((100% / 50) * 4);
+}
+
+.col-3 {
+  width: calc((100% / 50) * 3);
+}
+
+.col-2 {
+  width: calc((100% / 50) * 2);
+}
+
+.col-1 {
+  width: calc(100% / 50);
 }
 
 .black {
